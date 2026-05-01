@@ -1,4 +1,4 @@
-<img width="137" height="130" alt="image" src="https://github.com/user-attachments/assets/fe50d40d-aae5-4028-a0bb-167fd6354f4c" align="left" style="z-index: 999;"  />
+<img width="137" height="130" alt="image" src="https://github.com/user-attachments/assets/fe50d40d-aae5-4028-a0bb-167fd6354f4c" align="left" style="z-index: 999; margin-right: 1rem"  />
 
 # System Integration - Autumn 2026
 ## PBA Software Development
