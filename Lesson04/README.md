@@ -1,3 +1,3 @@
 [System Integration - Autumn 2026](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/README.md)
 
-# Lesson 2 - 17 September
+# Lesson 4 - 17 September
