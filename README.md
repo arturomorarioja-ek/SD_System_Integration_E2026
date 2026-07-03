@@ -13,6 +13,6 @@
 - [Lesson 7](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson07/README.md) (8 October): WebSockets. Distributed Databases
 - Lesson 8 (15 October): Work on the First Mandatory Assignment
 - Lesson 9 (22 October): First Mandatory Assignment: student presentations
-- [Lesson 10](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson10/README.md) (29 October): API Security: Attacks. Token authentication
-- [Lesson 11](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson11/README.md) (5 November): API Security: JWT. OAuth2/OIDC
+- [Lesson 10](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson10/README.md) (29 October): API Security Attacks. Token authentication
+- [Lesson 11](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson11/README.md) (5 November): API Authentication and Authorisation: JWT. OAuth2/OIDC
 - [Lesson 12](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson12/README.md) (12 November): API Documentation. Course recap
