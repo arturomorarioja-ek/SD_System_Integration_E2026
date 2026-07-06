@@ -10,7 +10,7 @@
 - [Lesson 4](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/README.md) (17 September): SOAP. XML
 - [Lesson 5](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson05/README.md) (24 September): GraphQL
 - [Lesson 6](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson06/README.md) (1 October): gRPC
-- [Lesson 7](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson07/README.md) (8 October): WebSockets. Distributed Databases
+- [Lesson 7](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson07/README.md) (8 October): WebSockets, SSE, polling. Distributed Databases
 - Lesson 8 (15 October): Work on the First Mandatory Assignment
 - Lesson 9 (22 October): First Mandatory Assignment: student presentations
 - [Lesson 10](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson10/README.md) (29 October): API Security Attacks. Token authentication
