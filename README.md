@@ -4,10 +4,10 @@
 ## PBA Software Development
 
 ### Lessons
-- [Lesson 1](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson01/README.md) (27 August): Software Architectures
+- [Lesson 1](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson01/README.md) (27 August): Software Architectures and Application Patterns. SOA and Web Services
 - [Lesson 2](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson02/README.md) (3 September): TCP/IP. HTTP
 - [Lesson 3](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson03/README.md) (10 September): REST
-- [Lesson 4](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/README.md) (17 September): SOAP. XML
+- [Lesson 4](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/README.md) (17 September): SOAP. XML. File formats
 - [Lesson 5](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson05/README.md) (24 September): GraphQL
 - [Lesson 6](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson06/README.md) (1 October): gRPC
 - [Lesson 7](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson07/README.md) (8 October): WebSockets, SSE, polling. Distributed Databases
