@@ -3,3 +3,6 @@
 # Lesson 1 - 27 August
 
 [Download Software Architecture + SOA slides]: #
+[git clone https://github.com/arturomorarioja/api_consumption_app, include keys.js]: #
+
+[SOA: show the API consumption app]: #
