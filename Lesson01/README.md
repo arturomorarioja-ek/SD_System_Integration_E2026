@@ -6,3 +6,8 @@
 [git clone https://github.com/arturomorarioja/api_consumption_app, include keys.js]: #
 
 [SOA: show the API consumption app]: #
+
+
+
+[WORKSHOP]: #
+[https://github.com/arturomorarioja/php_library_mvc. Tweak path in .htaccess and index.php]: #
