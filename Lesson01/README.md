@@ -2,4 +2,4 @@
 
 # Lesson 1 - 27 August
 
-[Download Software Architecture slides]: #
+[Download Software Architecture + SOA slides]: #
