@@ -57,3 +57,17 @@ To assess the applicability of each architecture to each scenario, you may consi
 - Team autonomy
 - Deployment
 - Scalability
+
+### Solution
+1. **Eksaminator**
+    - Monolith or 3-tier: reliable, cost-effective, simple
+2. **Ride-Now**
+    - Microservices: isolatable domains, scalability demands
+3. **Stockflow**
+    - Enterprise SOA: integration of heterogeneous systems, business-level services, no big deployment needs, lax performance needs (batch processing)
+4. **Smart-Gallery**
+    - Serverless: intermittent workloads (cost model matches pattern), event-driven architecture (functionalities like tagging, uploading, or future features are triggered by events, so there are parallel workloads)
+    - Microservices: continuous evolution expected, independent scaling (automatic image recognition might use more resources than tagging)
+6. **Musik-Fest**
+    - N-Tier: clear separation UI (mobile app) - app logic - data, few services
+    - Monolith: alternative for the web version
