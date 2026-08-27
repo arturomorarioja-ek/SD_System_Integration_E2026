@@ -2,15 +2,18 @@
 
 # Lesson 1 - 27 August
 
-### In-class exercise
+### In-class exercises
 - [Software Architectures](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson01/Ex%2001%20Software%20Architectures.md)
-
+- [Service-Oriented Architecture](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson01/Ex%2002%20SOA.md)
+  
 ### Homework
-- Check out the slide set **Software Architecture**
-  - Make sure that you understand the architectures' and patterns' main pros and cons, and when to apply each
-
-[SOA: show the API consumption app]: #
-
+- Check out the following slide sets
+  - **Software Architecture**
+    - Make sure that you understand the architectures' and patterns' main pros and cons, and when to apply each
+  - **Service-Oriented Architecture**. Make sure that you understand:
+    - How what we call SOA today differentiates from the traditional Enterprise SOA pattern (the one that requires an ESB and that is associated to integrations with legacy systems)
+    - How web services are a way of implementing modern SOA
+    - Check out the following SOA application that has a web application call three services (weather, map, and events): [API consumption](https://github.com/arturomorarioja/api_consumption_app)
 
 
 [WORKSHOP]: #
