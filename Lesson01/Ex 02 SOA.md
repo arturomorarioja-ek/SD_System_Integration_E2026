@@ -61,7 +61,7 @@ You are designing integrations for a medium-sized hospital. When a patient arriv
         - It could be a service provider to other hospitals
     - NPR provides operations such as `FindPatientByCPR` or `GetPatientDemographics`
     - HPMS provides operations such as `CreatePatient` or `UpdatePatient`
-    - Insurance Validation Service provides operations such as `ValidateCoverate` or `GetCoverageDetails`
+    - Insurance Validation Service provides operations such as `ValidateCoverage` or `GetCoverageDetails`
     - Bed Management Service provides operations such as `ReserveBed`, `ReleaseBed` or `GetAvailableBeds`
     - EMR System provides operations such as `CreateAdmissionRecord` or `LinkPatientToAdmission`
         - It could also request patient information from NPR
