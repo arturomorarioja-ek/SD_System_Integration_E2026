@@ -34,3 +34,26 @@ Match the following scenarios to the application pattern that best fits them (la
    A company must support many payment providers (Stripe, MobilePay, Klarna, PayPal).  
    Each provider has different APIs, authentication models, and workflows.  
    The business logic should not change when a provider is replaced.
+
+### Solution
+
+1. **Product Catalogue**  
+   CQRS: different read/write models.
+   
+2. **Booking System**  
+   Onion/Hexagonal: explicit need to protect domain logic from infrastructure changes.
+   
+3. **ERP Lite**  
+   Modular monolith: strong modules with internal boundaries, but one deployable unit.
+   
+4. **Bank Ledger with Audit Trail**  
+   Event sourcing: it keeps an immutable log.
+   
+5. **Webshop**  
+   Layered: 3 clearly separated layers.
+   
+6. **Photo Editor with Plugins**  
+   Microkernel: the plugins are not independent, but they extend a core module. 
+   
+7. **Payment Adapter Hub**  
+   Hexagonal/Onion: the domain logic owns ports that connect to each provider's adapter without modifying the application's domain logic.
