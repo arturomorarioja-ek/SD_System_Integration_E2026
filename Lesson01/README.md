@@ -17,7 +17,4 @@
     - Check out the following SOA application that has a web application call three services (weather, map, and events): [API consumption](https://github.com/arturomorarioja/api_consumption_app)
   - **Software Application Patterns**
     - Make sure that you understand the pros and cons for each pattern, when they should be applied and how likely are they to be paired with specific software architectures
-
-
-[WORKSHOP]: #
-[https://github.com/arturomorarioja/php_library_mvc. Tweak path in .htaccess and index.php]: #
+- Work on the [Software Architecture Definition exercise](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson01/Ex%2004%20Software%20Architecture%20Definition.md). We will assess everyone's answers next week.
