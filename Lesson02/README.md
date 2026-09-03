@@ -4,3 +4,9 @@
 
 ## In-class exercise
 - [`netstat`](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson02/Ex%2001%20netstat.md)
+
+## Homework
+- Check out the following slide decks on Itslearning:
+  - **TCP/IP**, focusing especially on the transport level protocols: TCP, UDP, QUIC
+- Solve the following exercise:
+  - [TCP/IP](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson02/Ex%2002%20TCP-IP.md)
