@@ -54,3 +54,27 @@ Three years pass and GameHub has:
 Questions:
 1. Which overall architecture becomes more attractive now?
 2. Which three components would you adapt to the new architecture first?
+
+### Solution
+
+#### Part One
+- A. **User Management** → Layered
+- B. **Payment Gateway** → Hexagonal
+- C. **Game Catalogue** → CQRS
+- D. **Purchase History** → Event Sourcing
+- E. **Discount Engine** → Microkernel
+- F. **Store Backend** → Modular Monolith
+
+#### Part Two
+Monolith or N-tier, regardless of whether internally it uses hexagonal, layered, CQRS, etc.
+
+#### Part Three
+
+<img width="1443" height="505" alt="image" src="https://github.com/user-attachments/assets/0436c6f0-71fe-411a-b5c6-e70170a8206d" />
+
+1. Order Service
+2. Order Service
+
+#### Part Four
+1. Microservices
+2. Catalogue, payment, and purchase
