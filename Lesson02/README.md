@@ -2,8 +2,9 @@
 
 # Lesson 2 - 3 September
 
-## In-class exercise
+## In-class exercises
 - [`netstat`](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson02/Ex%2001%20netstat.md)
+- [HTTP versions](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson02/Ex%2003%20HTTP%20versions.md)
 
 ## Homework
 - Check out the following slide decks on Itslearning:
