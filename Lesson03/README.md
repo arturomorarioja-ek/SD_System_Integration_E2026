@@ -13,4 +13,7 @@
 [Ex assessment, ex naming]: #
 
 [HATEOAS Demo php films postman]: #
+[Ex to do list]: #
+
 [Pagination Demo customers postman]: #
+[Homework to do list v2]: #
