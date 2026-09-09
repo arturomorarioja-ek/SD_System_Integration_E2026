@@ -12,4 +12,5 @@
 [REST slides]: #
 [Ex assessment, ex naming]: #
 
-[Demo php films postman]: #
+[HATEOAS Demo php films postman]: #
+[Pagination Demo customers postman]: #
