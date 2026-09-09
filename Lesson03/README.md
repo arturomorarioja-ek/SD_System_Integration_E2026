@@ -2,4 +2,9 @@
 
 # Lesson 3 - 10 September
 
-[Recheck the Python http sample]: #
+[git pull js_http_response]: #
+
+[Demo py_http_response, js_http_response]: #
+[Idempotency. Show slides again, then demo the exercise solution in Postman and explain the code]: #
+
+
