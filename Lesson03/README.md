@@ -2,13 +2,6 @@
 
 # Lesson 3 - 10 September
 
-[git pull js_http_response]: #
-[git pull php_films_rest_api]: #
-
-[Demo py_http_response, js_http_response]: #
-[Idempotency. Show slides again, then demo the exercise solution in Postman and explain the code]: #
-[  Notice that for the distributed cache it is necessary to hash the whole row and store it in Redis, so it can check for same idempotency key + different body]: #
-
 [REST slides]: #
 [Ex assessment, ex naming]: #
 
@@ -17,3 +10,12 @@
 
 [Pagination Demo customers postman]: #
 [Homework to do list v2]: #
+
+## In-class exercise
+- [REST Endpoint Naming](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson03/Ex%2002%20REST%20Endpoint%20Naming.md)
+
+## Homework
+- Catch up on previous slide decks and exercises
+  - Work on the [Idempotency](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson02/Ex%2007%20Idempotency.md) exercise and make sure you understand it
+- Check out the slide deck **REST**, with especial attention on:
+  - Naming convention
