@@ -1,7 +1,7 @@
 ### REST API Assessment
 Work in pairs.
 
-Assess whether the following APIs used by the [API Consumption sample](https://github.com/arturomorarioja/js_api_consumption) are RESTful or not. Explain why.
+Assess whether the following APIs are RESTful or not. Explain why.
 - [The OpenWeather Map "Current Weather Data" API](https://openweathermap.org/current)
 - [The MapBox "Static Images" API](https://docs.mapbox.com/api/maps/#static-images)
 - [The TicketMaster Discovery API](https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/)
@@ -21,25 +21,6 @@ Assess whether the following APIs used by the [API Consumption sample](https://g
       >  - Multipart responses
       >  - Custom binary media types with embedded metadata (e.g., SVG with hyperlinks, annotations in a PDF)
 
-- [The TicketMaster Discovery API](https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/). **RESTful**
-   - Client-Server. Uses HTTP
-   - Stateless. No relationship between requests
-   - Cacheable. Uses HTTP
-   - Layered system. The client is unaware of its internals
-   - Uniform interface
-      - Resource identification in request. Examples
-        ```
-          GET /discovery/v2/events
-          GET /discovery/v2/events/{id}
-          GET /discovery/v2/events/{id}/images
-          GET /discovery/v2/venues
-          GET /discovery/v2/venues/{id}
-          GET /discovery/v2/attractions
-          GET /discovery/v2/attractions/{id}
-          GET /discovery/v2/classifications
-          GET /discovery/v2/classifications/{id}
-          GET /discovery/v2/classifications/genres/{id}
-        ```
-      - Resource manipulation through representations. As it is a read-only API, this point does not apply
-      - Self-descriptive messages. By following REST naming conventions
-      - HATEOAS. It includes a top level `_links` key with `self`, `first`, `last`, and `next`, the four of them containing `href`
+- [The TicketMaster Discovery API](https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/). **Not RESTful**
+   - It uses verbs in the URI: `/discovery/v2/suggest`
+   - It includes file extensions in the URI: `/discovery/v2/events.json?apikey={apikey}`
