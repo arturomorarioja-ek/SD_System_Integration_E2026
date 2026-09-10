@@ -69,10 +69,10 @@ Write down the names of the following REST endpoints:
 
 If authentication is based on sessions:
 - Logging in: `POST /auth/sessions`. This endpoint will return a session token
-- Logging out: `DELETE /auth/sessions/{tokenId}`. The server will delete a specific session
+- Logging out: `DELETE /auth/sessions/{sessionId}`. The server will delete a specific session
   
 If authentication is based on tokens:
 - Logging in: `POST /auth/tokens`. This endpoint will return a token
-- Logging out `DELETE /auth/tokens/{sessionId}`. The server will delete a specific session
+- Logging out `DELETE /auth/tokens/{tokenId}`. The server will delete a specific session
 
 `/auth/login` and `/auth/logout` are widely used, but they contravene REST naming conventions by expressing operations/processes rather than resources.
