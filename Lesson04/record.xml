@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<record student="Linus Torvalds">
+    <subject id="1">
+        <name>Basic Programming</name>
+        <grade>Good</grade>
+    </subject>
+    <subject id="2">
+        <name>Operating Systems</name>
+        <grade>Excellent</grade>
+    </subject>
+    <subject id="3">
+        <name>UX/UI</name>
+        <grade>Fail</grade>
+    </subject>
+</record>

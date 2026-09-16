@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <fo:layout-master-set>
+        <fo:simple-page-master master-name="simple"
+                               page-height="29.7cm"
+                               page-width="21cm"
+                               margin-top="1cm"
+                               margin-bottom="2cm"
+                               margin-left="2.5cm"
+                               margin-right="2.5cm">
+            <fo:region-body margin-top="3cm"/>
+            <fo:region-before extent="3cm"/>
+            <fo:region-after extent="1.5cm"/>
+        </fo:simple-page-master>
+    </fo:layout-master-set>
+
+    <fo:page-sequence master-reference="simple">
+        <fo:flow flow-name="xsl-region-body">
+
+            <fo:block font-size="20pt"
+                      font-family="sans-serif"
+                      line-height="24pt"
+                      space-after.optimum="15pt"
+                      text-align="center"
+                      padding-top="3pt">
+                My recipe addresses
+            </fo:block>
+
+            <fo:block font-size="12pt"
+                      font-family="sans-serif"
+                      line-height="15pt"
+                      space-after.optimum="3pt"
+                      text-align="justify">
+                Compilation of my favourite recipe addresses.
+            </fo:block>
+
+            <fo:block space-after.optimum="3pt" space-before.optimum="4pt">
+                <fo:block font-size="12pt" font-weight="bold" font-family="sans-serif"
+                          line-height="13pt" space-after.optimum="2pt" text-align="justify">
+                    All Recipes
+                </fo:block>
+                <fo:block font-size="9pt">
+                    <fo:basic-link color="#0060A0"
+                                   external-destination="url('https://www.allrecipes.com/')">
+                        https://www.allrecipes.com/
+                    </fo:basic-link>
+                </fo:block>
+                <fo:block font-size="9pt" start-indent="3pt" font-family="sans-serif"
+                          line-height="12pt" space-after.optimum="3pt" text-align="justify">
+                    America's #1 trusted recipe resource since 1997.
+                </fo:block>
+            </fo:block>
+
+            <fo:block space-after.optimum="3pt" space-before.optimum="4pt">
+                <fo:block font-size="12pt" font-weight="bold" font-family="sans-serif"
+                          line-height="13pt" space-after.optimum="2pt" text-align="justify">
+                    Pinch of Yum
+                </fo:block>
+                <fo:block font-size="9pt">
+                    <fo:basic-link color="#0060A0"
+                                   external-destination="url('https://pinchofyum.com/')">
+                        https://pinchofyum.com/
+                    </fo:basic-link>
+                </fo:block>
+                <fo:block font-size="9pt" start-indent="3pt" font-family="sans-serif"
+                          line-height="12pt" space-after.optimum="3pt" text-align="justify">
+                    Simple recipes made for real, actual, everyday life.
+                </fo:block>
+            </fo:block>
+
+        </fo:flow>
+    </fo:page-sequence>
+</fo:root>

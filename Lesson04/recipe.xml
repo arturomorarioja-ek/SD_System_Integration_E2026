@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Recipe>
+    <Name>Potato Omelette</Name>
+    <Description>
+        The traditional and typical potato omelette,
+        just the way it is made in Spain.
+    </Description>
+    <Ingredients>
+        <Ingredient>
+            <Quantity unit="piece">3</Quantity>
+            <Item>Potato</Item>
+        </Ingredient>
+        <Ingredient>
+            <Quantity unit="piece">2</Quantity>
+            <Item>Eggs</Item>
+        </Ingredient>
+        <Ingredient>
+            <Quantity unit="liter">0.1</Quantity>
+            <Item>Olive oil</Item>
+        </Ingredient>
+    </Ingredients>
+    <Instructions>
+        <Step>
+            Peel and slice the potatoes
+        </Step>
+        <Step>
+            Put oil in a frying pan
+        </Step>
+        <!-- And so on... -->
+    </Instructions>
+</Recipe>

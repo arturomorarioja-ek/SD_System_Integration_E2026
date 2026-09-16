@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<addresses>
+    <topic>My recipe addresses</topic>
+    <intro>Compilation of my favourite recipe addresses.</intro>
+
+    <address>
+        <title>All Recipes</title>
+        <url>https://www.allrecipes.com/</url>
+        <description>America's #1 trusted recipe resource since 1997.</description>
+    </address>
+    <address>
+        <title>Pinch of Yum</title>
+        <url>https://pinchofyum.com/</url>
+        <description>Simple recipes made for real, actual, everyday life.</description>
+    </address>
+</addresses>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMPANY>
+  <EMPLOYEE TOWN="Copenhagen">
+    Frederik Nørgaard
+    <TITLE>Mechanical Engineer (higher)</TITLE>
+    <TITLE>IT Support Technician (intermediate)</TITLE>
+  </EMPLOYEE>
+
+  <EMPLOYEE TOWN="Copenhagen">
+    Maria Holm
+    <TITLE>Upper Secondary Education (intermediate)</TITLE>
+  </EMPLOYEE>
+
+  <EMPLOYEE TOWN="Aarhus">
+    Isabelle Mikkelsen
+    <TITLE>PhD in Free Software (higher)</TITLE>
+    <TITLE>Computer Engineer (higher)</TITLE>
+  </EMPLOYEE>
+
+  <EMPLOYEE TOWN="Odense">
+    Isidor Søndergaard
+  </EMPLOYEE>
+</COMPANY>

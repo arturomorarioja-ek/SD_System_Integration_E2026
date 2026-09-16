@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+  <employee>
+    <code>A342</code>
+    <name>Frederik Nørgaard</name>
+    <town>Copenhagen</town>
+    <degree level="higher">Mechanical Engineer</degree>
+    <degree level="intermediate">IT Support Technician</degree>
+  </employee>
+
+  <employee>
+    <code>B120</code>
+    <name>Maria Holm</name>
+    <town>Copenhagen</town>
+    <degree level="intermediate">Upper Secondary Education</degree>
+  </employee>
+
+  <employee>
+    <code>A087</code>
+    <name>Isabelle Mikkelsen</name>
+    <town>Aarhus</town>
+    <degree level="higher">PhD in Free Software</degree>
+    <degree level="higher">Computer Engineer</degree>
+  </employee>
+
+  <employee>
+    <code>C103</code>
+    <name>Isidor Søndergaard</name>
+    <town>Odense</town>
+  </employee>
+</employees>
