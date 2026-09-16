@@ -6,7 +6,8 @@
 [Enquire about whether they solved the idempotency exercise]: #
 
 [XML. Stop before XSL and prescribe the employees exercise]: #
-[SOAP]: #
+
+[SOAP. Stop before WS-Security and show the tempconvert demo]: #
 
 [Workshop]: #
 [File formats]: #
