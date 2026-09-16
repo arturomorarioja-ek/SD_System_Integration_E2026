@@ -7,7 +7,8 @@
 
 [XML. Stop before XSL and prescribe the employees exercise]: #
 
-[SOAP. Stop before WS-Security and show the tempconvert demo]: #
+[SOAP. Stop before WSDL and show the tempconvert demo]: #
+[SOAP. WSDL and in-class exercise]: #
 
 [Workshop]: #
 [File formats]: #
