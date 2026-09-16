@@ -2,6 +2,8 @@
 
 # Lesson 4 - 17 September
 
+[Download SOAP slides]: #
+
 [Solve To Do List v1 & v2]: #
 [Enquire about whether they solved the idempotency exercise]: #
 
