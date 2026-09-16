@@ -5,3 +5,9 @@
 [Solve To Do List v1 & v2]: #
 [Enquire about whether they solved the idempotency exercise]: #
 
+[XML. Stop before XSL and prescribe the employees exercise]: #
+[SOAP]: #
+
+[Workshop]: #
+[File formats]: #
+[XSL]: #
