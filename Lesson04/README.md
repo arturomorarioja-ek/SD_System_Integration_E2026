@@ -5,6 +5,7 @@
 [Workshop]: #
 [File formats]: #
 [XSL]: #
+  [record.xml .xslt]: #
   [addresses.xml .xslt .fo]: #
 
 ## In-class exercises
