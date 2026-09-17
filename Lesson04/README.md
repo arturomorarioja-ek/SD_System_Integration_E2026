@@ -5,6 +5,7 @@
 [Workshop]: #
 [File formats]: #
 [XSL]: #
+  [addresses.xml .xslt .fo]: #
 
 ## In-class exercises
 - XSD: [Employees](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/Ex%2001%20Employees%20XSD.md)
