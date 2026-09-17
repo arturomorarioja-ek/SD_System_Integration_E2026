@@ -1,4 +1,4 @@
-[### To Do List REST API
+### To Do List REST API
 Write a REST API in the programming language of your choice that implements the following endpoints for a to do list:
 
 - Retrieve all tasks
