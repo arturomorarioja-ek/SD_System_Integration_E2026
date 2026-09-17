@@ -2,8 +2,6 @@
 
 # Lesson 4 - 17 September
 
-[Download SOAP slides]: #
-
 [Solve To Do List v1 & v2]: #
 [Enquire about whether they solved the idempotency exercise]: #
 
@@ -15,3 +13,13 @@
 [Workshop]: #
 [File formats]: #
 [XSL]: #
+
+## Class takeaways
+- XML
+  - APIs that return XML
+    - [European Central Bank (ECB) Exchange Rates API](https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml)
+    - [NOAA / NWS (National Weather Service)](https://forecast.weather.gov/MapClick.php?lat=38.99&lon=-77.01&FcstType=dwml)
+    - RSS / Atom feeds
+      - [The New York Times](https://www.nytimes.com/rss)
+      - [BBC News](http://feeds.bbci.co.uk/news/rss.xml)
+      - [ArXiv](http://export.arxiv.org/api/query?search_query=all:AI)
