@@ -38,3 +38,4 @@
 - Check out the following demos:
   - Sample WSDL file: [Stock Quotes](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/stock_quotes.wsdl)
   - WSDL generation. SOAP server and client: [Bank account opening](https://github.com/arturomorarioja/php_soap_bank_account_opening)
+    - Even if you are not into PHP, try to follow the code to understand the strategy
