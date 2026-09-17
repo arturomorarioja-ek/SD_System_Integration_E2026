@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified">
+
+  <!-- One uppercase letter + three digits -->
+  <xs:simpleType name="codeType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z][0-9]{3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Degree levels -->
+  <xs:simpleType name="degreeLevelType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="higher"/>
+      <xs:enumeration value="intermediate"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- A degree element with a required level attribute -->
+  <xs:complexType name="degreeType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="level" type="degreeLevelType" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- Employee -->
+  <xs:complexType name="employeeType">
+    <xs:sequence>
+      <xs:element name="code" type="codeType"/>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="town" type="xs:string"/>
+      <xs:element name="degree" type="degreeType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Root element -->
+  <xs:element name="employees">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="employee" type="employeeType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
