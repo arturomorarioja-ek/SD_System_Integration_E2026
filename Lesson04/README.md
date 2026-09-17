@@ -2,20 +2,14 @@
 
 # Lesson 4 - 17 September
 
-[Solve To Do List v1 & v2]: #
-[Enquire about whether they solved the idempotency exercise]: #
-
-[XML. Stop before XSL and prescribe the employees exercise]: #
-
-[SOAP. Stop before WSDL and show the tempconvert demo]: #
-[SOAP. WSDL and in-class exercise]: #
-
 [Workshop]: #
 [File formats]: #
 [XSL]: #
 
-## In-class exercise
+## In-class exercises
 - XSD: [Employees](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/Ex%2001%20Employees%20XSD.md)
+- SOAP
+  - [WSDL](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/Ex%2004%20Airline%20System%20WSDL.md)
 
 ## Class takeaways
 - XML
