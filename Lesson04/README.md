@@ -2,11 +2,10 @@
 
 # Lesson 4 - 17 September
 
-[Workshop]: #
-[File formats]: #
 [XSL]: #
   [record.xml .xslt]: #
   [addresses.xml .xslt .fo]: #
+[SOAP server and client]: #
 
 ## In-class exercises
 - XSD: [Employees](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/Ex%2001%20Employees%20XSD.md)
