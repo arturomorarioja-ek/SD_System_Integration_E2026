@@ -14,6 +14,9 @@
 [File formats]: #
 [XSL]: #
 
+## In-class exercise
+- XSD: [Employees](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/Ex%2001%20Employees%20XSD.md)
+
 ## Class takeaways
 - XML
   - APIs that return XML
