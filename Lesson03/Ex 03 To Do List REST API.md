@@ -23,4 +23,6 @@ The following data structure can be used for testing:
     {"id": 4, "task": "Keep learning", "done": False}
 ]
 ```
-](https://github.com/arturomorarioja-ek/SD_System_Integration_Materials/blob/main/REST/03%20To%20Do%20List%20REST%20API.md)
+
+### Solution
+[Flask/Python](https://github.com/arturomorarioja/to_do_list_rest_api)
