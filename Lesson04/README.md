@@ -20,3 +20,17 @@
       - [The New York Times](https://www.nytimes.com/rss)
       - [BBC News](http://feeds.bbci.co.uk/news/rss.xml)
       - [ArXiv](http://export.arxiv.org/api/query?search_query=all:AI)
+     
+### Homework
+- Check out the **XML** slides, with special attention to XSD (XML Schema Definition)
+    - Check out the following example:
+      - XSD: [recipe.xml](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/recipe.xml), [recipe.xsd](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/recipe.xsd)
+- Read the **SOAP** slides in depth. Make sure you understand:
+  - Its pros and cons
+  - Its contexts of use
+  - Its structure
+  - WSDL file generation
+- Check out the following demos:
+  - Sample WSDL file: [Stock Quotes](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/stock_quotes.wsdl)
+  - WSDL generation. SOAP server and client: [Bank account opening](https://github.com/arturomorarioja/php_soap_bank_account_opening)
+
