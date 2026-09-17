@@ -1,2 +1,5 @@
 ### To Do List REST API v2
-Add pagination to the [To Do list exercise](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson03/Ex%2003%20To%20Do%20List%20REST%20API.md).
+Add pagination to the [To Do list exercise](https://github.com/arturomorarioja-ek/SD_System_Integration_F26_Materials/blob/main/REST/03%20To%20Do%20list.md).
+
+### Solution
+[Python](https://github.com/arturomorarioja/to_do_list_rest_api_v2)
