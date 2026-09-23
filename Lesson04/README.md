@@ -2,17 +2,12 @@
 
 # Lesson 4 - 17 September
 
-[XSL]: #
-  [record.xml .xslt]: #
-  [addresses.xml .xslt .fo]: #
-[SOAP server and client]: #
-
 ## In-class exercises
 - XSD: [Employees](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/Ex%2001%20Employees%20XSD.md)
 - SOAP
-  - [WSDL](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/Ex%2004%20Airline%20System%20WSDL.md)
-  - [Server and client](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/Ex%2005%20Airline%20System%20Server-Client.md)
-  - [Server and client extended](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/Ex%2006%20Airline%20System%20Purchase.md)
+  - WSDL: [Airline System](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/Ex%2004%20Airline%20System%20WSDL.md)
+  - Server and client: [Airline System](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/Ex%2005%20Airline%20System%20Server-Client.md)
+  - Server and client extended: [Airline System Purchase](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/Ex%2006%20Airline%20System%20Purchase.md)
 
 ## Class takeaways
 - XML
