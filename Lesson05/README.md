@@ -2,6 +2,8 @@
 
 # Lesson 5 - 24 September
 
+[Download GraphQL slides]: #
+
 [Solutions to Airline SOAP + purchase]: #
 [Tell them about Simply Chocolate's APIs]: #
 
