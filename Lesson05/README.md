@@ -11,6 +11,8 @@
 - Check out the **GraphQL** slides
 - Check out the following code samples:
   - GraphQL API consumption: [Star Wars](https://github.com/arturomorarioja/js_graphql_star_wars)
+  - GraphQL server and client: [Books](https://github.com/arturomorarioja/py_books_graphql)
+  - GraphQL API: Books API ([Python/Graphene](https://github.com/arturomorarioja/py_books_graphql_api) | [JavaScript/Apollo](https://github.com/arturomorarioja/js_books_graphql))
 - Practice GraphQL querying in the following playgrounds:
   - [Moonhighway's Trail Events playground](https://snowtooth.moonhighway.com/)
   - [Moonhighway's Pet Library playground](https://pet-library.moonhighway.com/) 
