@@ -2,8 +2,9 @@
 
 # Lesson 5 - 24 September
 
-## In-class exercise
+## In-class exercises
 - GraphQL consumption: [Countries](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson05/Ex%2001%20Countries.md)
+- SDL definition: [Movie Streaming](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson05/Ex%2002%20Movie%20Streaming.md)
 
 ## Homework
 
