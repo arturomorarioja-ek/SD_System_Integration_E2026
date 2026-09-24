@@ -20,3 +20,4 @@
   - [Photo Albums playground](https://graphqlzero.almansi.me/api)
   - [Company playground](https://www.devtoolsdaily.com/graphql/playground/)
   - [Hypgraph's Movies playground](https://hygraph.com/graphql-playground)
+- Solve the [Tasks](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson05/Ex%2003%20Tasks.md) GraphQL exercise
