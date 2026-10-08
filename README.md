@@ -12,7 +12,7 @@
 - [Lesson 6](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson06/README.md) (1 October): Cancelled
 - [Lesson 7](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson07/README.md) (8 October): gRPC, WebSockets, SSE, polling.
 - Lesson 8 (15 October): Work on the First Mandatory Assignment
-- [Lesson 9](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson10/README.md) (22 October): API Security Attacks. Token authentication
-- [Lesson 10](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson11/README.md) (29 October): API Authentication and Authorisation: JWT. OAuth2/OIDC
+- [Lesson 9](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson09/README.md) (22 October): API Security Attacks. Token authentication
+- [Lesson 10](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson10/README.md) (29 October): API Authentication and Authorisation: JWT. OAuth2/OIDC
 - Lesson 11 (5 November): First Mandatory Assignment: student presentations
 - [Lesson 12](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson12/README.md) (12 November): Distributed Databases. API Documentation. Course recap
