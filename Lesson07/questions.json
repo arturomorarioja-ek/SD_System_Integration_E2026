@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Which protocol does HTTP/3 run over?",
+      "choices": ["TCP", "QUIC", "SCTP", "UDP-only (no reliability)"],
+      "answer_index": 1,
+      "seconds_left": 10
+    },
+    {
+      "id": "q2",
+      "text": "gRPC streaming runs on top of which HTTP version by default?",
+      "choices": ["HTTP/1.1", "HTTP/2", "HTTP/3", "SPDY"],
+      "answer_index": 1,
+      "seconds_left": 10
+    },
+    {
+      "id": "q3",
+      "text": "Which call type best fits 'server pushes many messages'?",
+      "choices": ["Unary", "Client streaming", "Server streaming", "Bidirectional"],
+      "answer_index": 2,
+      "seconds_left": 10
+    }
+  ]
+}

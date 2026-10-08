@@ -1,0 +1,92 @@
+// Copyright 2026 Example Health Systems
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// this file may not be used except in compliance with the License.
+// A copy of the License may be obtained at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+// Protocol Buffers definition for the internal telemedicine consultation API.
+// This file defines the messages and gRPC service used to book consultations,
+// retrieve consultation details, and cancel consultations.
+
+syntax = "proto3";
+
+package telemedicine;
+
+import "google/protobuf/timestamp.proto";
+
+option java_multiple_files = true;
+option java_package = "com.example.telemedicine";
+option java_outer_classname = "ConsultationProto";
+option go_package = "github.com/example/telemedicine/proto;telemedicine";
+option csharp_namespace = "Example.Telemedicine";
+
+service ConsultationService {
+  rpc BookConsultation(BookConsultationRequest)
+      returns (BookConsultationResponse);
+
+  rpc GetConsultation(GetConsultationRequest)
+      returns (GetConsultationResponse);
+
+  rpc CancelConsultation(CancelConsultationRequest)
+      returns (CancelConsultationResponse);
+}
+
+message BookConsultationRequest {
+  string patient_id = 1;
+  string doctor_id = 2;
+  google.protobuf.Timestamp scheduled_at = 3;
+  ConsultationType consultation_type = 4;
+  string symptoms_summary = 5;
+}
+
+message BookConsultationResponse {
+  string consultation_id = 1;
+  string confirmation_message = 2;
+  ConsultationStatus status = 3;
+}
+
+message GetConsultationRequest {
+  string consultation_id = 1;
+}
+
+message GetConsultationResponse {
+  string consultation_id = 1;
+  string patient_id = 2;
+  string doctor_id = 3;
+  google.protobuf.Timestamp scheduled_at = 4;
+  ConsultationType consultation_type = 5;
+  ConsultationStatus status = 6;
+  string meeting_link = 7;
+}
+
+message CancelConsultationRequest {
+  string consultation_id = 1;
+  string cancellation_reason = 2;
+}
+
+message CancelConsultationResponse {
+  string consultation_id = 1;
+  string confirmation_message = 2;
+  ConsultationStatus status = 3;
+}
+
+enum ConsultationType {
+  CONSULTATION_TYPE_UNSPECIFIED = 0;
+  GENERAL_MEDICINE = 1;
+  DERMATOLOGY = 2;
+  CARDIOLOGY = 3;
+  MENTAL_HEALTH = 4;
+}
+
+enum ConsultationStatus {
+  CONSULTATION_STATUS_UNSPECIFIED = 0;
+  SCHEDULED = 1;
+  COMPLETED = 2;
+  CANCELLED = 3;
+}

@@ -1,0 +1,72 @@
+/**
+ * Protobuf file example for a telemedicine consultation service
+ * - Internal
+ * - Need for strong contracts
+ * - Need for low latency in service-to-service communication
+ */
+
+syntax = "proto3";
+
+package telemedicine;
+
+service ConsultationService {
+  rpc BookConsultation(BookConsultationRequest) returns (BookConsultationResponse);
+  rpc GetConsultation(GetConsultationRequest) returns (GetConsultationResponse);
+  rpc CancelConsultation(CancelConsultationRequest) returns (CancelConsultationResponse);
+}
+
+message BookConsultationRequest {
+  string patient_id = 1;
+  string doctor_id = 2;
+  string consultation_date = 3;
+  string consultation_time = 4;
+  ConsultationType consultation_type = 5;
+  string symptoms_summary = 6;
+}
+
+message BookConsultationResponse {
+  string consultation_id = 1;
+  string confirmation_message = 2;
+  ConsultationStatus status = 3;
+}
+
+message GetConsultationRequest {
+  string consultation_id = 1;
+}
+
+message GetConsultationResponse {
+  string consultation_id = 1;
+  string patient_id = 2;
+  string doctor_id = 3;
+  string consultation_date = 4;
+  string consultation_time = 5;
+  ConsultationType consultation_type = 6;
+  ConsultationStatus status = 7;
+  string meeting_link = 8;
+}
+
+message CancelConsultationRequest {
+  string consultation_id = 1;
+  string cancellation_reason = 2;
+}
+
+message CancelConsultationResponse {
+  string consultation_id = 1;
+  string confirmation_message = 2;
+  ConsultationStatus status = 3;
+}
+
+enum ConsultationType {
+  CONSULTATION_TYPE_UNSPECIFIED = 0;
+  GENERAL_MEDICINE = 1;
+  DERMATOLOGY = 2;
+  CARDIOLOGY = 3;
+  MENTAL_HEALTH = 4;
+}
+
+enum ConsultationStatus {
+  CONSULTATION_STATUS_UNSPECIFIED = 0;
+  SCHEDULED = 1;
+  COMPLETED = 2;
+  CANCELLED = 3;
+}
