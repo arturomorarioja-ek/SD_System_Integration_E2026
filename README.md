@@ -9,10 +9,10 @@
 - [Lesson 3](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson03/README.md) (10 September): REST
 - [Lesson 4](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/README.md) (17 September): XML. SOAP 
 - [Lesson 5](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson05/README.md) (24 September): GraphQL
-- [Lesson 6](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson06/README.md) (1 October): gRPC
-- [Lesson 7](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson07/README.md) (8 October): WebSockets, SSE, polling. Distributed Databases
+- [Lesson 6](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson06/README.md) (1 October): Cancelled
+- [Lesson 7](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson07/README.md) (8 October): gRPC, WebSockets, SSE, polling.
 - Lesson 8 (15 October): Work on the First Mandatory Assignment
-- Lesson 9 (22 October): First Mandatory Assignment: student presentations
-- [Lesson 10](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson10/README.md) (29 October): API Security Attacks. Token authentication
-- [Lesson 11](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson11/README.md) (5 November): API Authentication and Authorisation: JWT. OAuth2/OIDC
-- [Lesson 12](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson12/README.md) (12 November): API Documentation. Course recap
+- [Lesson 9](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson10/README.md) (22 October): API Security Attacks. Token authentication
+- [Lesson 10](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson11/README.md) (29 October): API Authentication and Authorisation: JWT. OAuth2/OIDC
+- Lesson 11 (5 November): First Mandatory Assignment: student presentations
+- [Lesson 12](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson12/README.md) (12 November): Distributed Databases. API Documentation. Course recap
