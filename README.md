@@ -9,7 +9,7 @@
 - [Lesson 3](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson03/README.md) (10 September): REST
 - [Lesson 4](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson04/README.md) (17 September): XML. SOAP 
 - [Lesson 5](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson05/README.md) (24 September): GraphQL
-- [Lesson 6](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson06/README.md) (1 October): Cancelled
+- Lesson 6 (1 October): Cancelled
 - [Lesson 7](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson07/README.md) (8 October): gRPC, WebSockets, SSE, polling.
 - Lesson 8 (15 October): Work on the First Mandatory Assignment
 - [Lesson 9](https://github.com/arturomorarioja-ek/SD_System_Integration_E2026/blob/main/Lesson09/README.md) (22 October): API Security Attacks. Token authentication
