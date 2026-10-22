@@ -44,3 +44,22 @@ Additional information:
 For each endpoint, decide whether access should be:
 - Public
 - Authenticated. If affirmative, specify to which role(s) should access be restricted
+  
+
+---
+**2. Access control**
+
+Is RBAC sufficient for this API, or would ABAC be necessary?
+
+
+---
+**3. Rate limiting**
+
+The team decides to limit each endpoint to a maximum number of requests per minute per client with the following rate limiting criteria:
+- Strict: 5 requests/minute
+- Moderate: 30 requests/minute
+- Relaxed: 120 requests/minute
+
+1. Indicate which endpoint belongs in each of the three approaches
+2. Which is the heaviest endpoint?
+
