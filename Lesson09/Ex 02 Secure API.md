@@ -45,12 +45,35 @@ For each endpoint, decide whether access should be:
 - Public
 - Authenticated. If affirmative, specify to which role(s) should access be restricted
   
+#### Solution
+
+|Method|Endpoint|Access|Role(s)|
+|-|-|-|-|
+|POST|`/login`|Public|N/A|
+|GET|`/projects`|Public|N/A|
+|GET|`/projects/{id}`|Public|N/A|
+|POST|`/projects`|Authenticated|Teacher, Admin|
+|PUT|`/projects/{id}`|Authenticated|Teacher, Admin|
+|DELETE|`/projects/{id}`|Authenticated|Admin|
+|POST|`/projects/{id}/submit`|Authenticated|Student|
+|GET|`/submissions`|Authenticated|Teacher, Admin|
+|GET|`/submissions/{id}`|Authenticated|Student (own submission only), Teacher, Admin|
+|PATCH|`/submissions/{id}/grade`|Authenticated|Teacher|
+|GET|`/users`|Authenticated|Admin|
+|POST|`/users`|Authenticated|Admin|
 
 ---
 **2. Access control**
 
 Is RBAC sufficient for this API, or would ABAC be necessary?
 
+#### Solution
+
+RBAC is sufficient for the most part because most permissions map naturally to roles.
+
+The exception is the endpoint `GET /submissions/{id}`, which requires something extra, e.g.:
+- ABAC, introducing a simple attribute-based rule (e.g., `student_id == submission.owner_id`)
+- RBAC with an ownership check
 
 ---
 **3. Rate limiting**
@@ -63,3 +86,25 @@ The team decides to limit each endpoint to a maximum number of requests per minu
 1. Indicate which endpoint belongs in each of the three approaches
 2. Which is the heaviest endpoint?
 
+#### Solution
+
+1. Endpoint classification
+
+| Endpoint                        | Rate limit                 | Justification                                                         |
+| ------------------------------- | -------------------------- | --------------------------------------------------------------------- |
+| POST `/login`                   | **Strict**                 | Sensitive to brute-force attacks; repeated attempts must be limited   |
+| GET `/projects`                 | **Relaxed**                | Public read, low cost, high expected usage                            |
+| GET `/projects/{id}`            | **Relaxed**                | Same as above                                                         |
+| POST `/projects`                | **Moderate**               | Write operation; should not be spammed                                |
+| PUT `/projects/{id}`            | **Moderate**               | Write operation|
+| DELETE `/projects/{id}`         | **Strict**                 | Destructive operation; low expected frequency|
+| POST `/projects/{id}/submit`    | **Strict**                 | File upload + processing; high resource cost|
+| GET `/submissions`              | **Moderate**               | Potentially large dataset; more sensitive than public project listing |
+| GET `/submissions/{id}`         | **Moderate**               | More sensitive than public project listing|
+| PATCH `/submissions/{id}/grade` | **Strict**                 | Sensitive write; should not be repeated frequently|
+| GET `/users`                    | **Moderate** | Sensitive data; should not be freely queried                          |
+| POST `/users`                   | **Strict**                 | Account creation should be tightly controlled (abuse risk)            |
+
+2. Heaviest endpoint
+
+`POST /projects/{id}/submit`, as it not only implies storage and processing, but may involve file upload.
