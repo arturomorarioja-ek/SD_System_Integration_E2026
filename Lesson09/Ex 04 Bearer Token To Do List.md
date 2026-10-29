@@ -7,3 +7,6 @@ Implement bearer token authentication in the To Do list REST API with the follow
 - All other endpoints must be authenticated via the bearer token
 - Logout endpoint: `/auth/logout`. It will delete the bearer token
 - User creation is not necessary
+
+### Solution
+[SQLite/Redis/Python/Flask](https://github.com/arturomorarioja/auth_bearer_token_to_do_list_rest_api)
