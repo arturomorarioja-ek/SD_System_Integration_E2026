@@ -50,3 +50,30 @@ Work in groups of 4 or 5 students.
     - Frequently accessed fields (name, email)
     - Rarely accessed fields (preferences, logs)
     - Common queries must have optimized performance
+
+### Solution
+
+1. Global e-commerce platform with worldwide service
+    - Replication: Leader-Follower (asynchronous implementation)
+      - Need for availability and read scaling 
+2. SaaS platform with multiple customers
+    - Sharding: Tenant-based
+      - Data isolation, uneven tenant sizes
+3. Logging system 
+    - Partitioning: Horizontal by range (date-based)
+      - Time-based queries
+4. Social media: user profiles and activity
+    - Sharding: Hash-based
+      - Need for horizontal scaling, even distribution, user-based access
+5. Financial system processing transactions
+    - Replication: Leader-Follower (synchronous implementation)
+      - Need for consistent state and controlled writes
+6. Collaborative document editing system
+    - Replication: Leader-Leader (asynchronous implementation)
+      - Multiple write points, need for low latency
+7. Business analytics dashboard
+    - Replication: Leader-Follower (synchronous implementation)
+      - Read-heavy analytics, permissible delay
+8. Wide user profile table for a sales platform
+    - Partitioning: Vertical
+      - Separation of fields accessed often vs. rarely, query optimization
