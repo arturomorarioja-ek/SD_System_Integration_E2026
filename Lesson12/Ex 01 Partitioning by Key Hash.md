@@ -42,3 +42,6 @@ VALUES
 ```
 
 Divide the table into 4 partitions based on hashing `user_id`. Find out about your relational database's default hashing method in order to make it work.
+
+### Solution
+[MySQL](https://github.com/arturomorarioja/mysql_partitioning_horizontal_hash)
